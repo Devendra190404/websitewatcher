@@ -55,6 +55,5 @@ def extract_url_database(filename, date_check):
                 print(article_data)
         url_list.append(url_object)
     return(url_list)
-
-# write list to text file, one URL per line, for each scrape
-write_to_csv(extract_url_database(wget_results, date_of_scrape), output_file)
+```write list to text file, one URL per line, for each scrape
+write_to_csv(extract_url_database(wget_results, date_of_scrape), output_file)```
